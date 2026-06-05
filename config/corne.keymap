@@ -21,6 +21,36 @@
             bindings = <&kp RIGHT_SHIFT>;
             key-positions = <19 40>;
         };
+
+        hrm-L-alt {
+            bindings = <&kp LEFT_ALT>;
+            key-positions = <15 37>;
+        };
+
+        hrm-R-alt {
+            bindings = <&kp RIGHT_ALT>;
+            key-positions = <20 40>;
+        };
+
+        hrm-L-ctrl {
+            bindings = <&kp LEFT_CONTROL>;
+            key-positions = <14 37>;
+        };
+
+        hrm-R-ctrl {
+            bindings = <&kp RIGHT_CONTROL>;
+            key-positions = <21 40>;
+        };
+
+        hrm-L-gui {
+            bindings = <&kp LEFT_GUI>;
+            key-positions = <13 37>;
+        };
+
+        hrm-R-gui {
+            bindings = <&kp RIGHT_GUI>;
+            key-positions = <22 40>;
+        };
     };
 
     keymap {
